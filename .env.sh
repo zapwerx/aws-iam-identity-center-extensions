@@ -1,21 +1,21 @@
-export DEPLOYMENT_ACCOUNT='116862854202'
-export DEPLOYMENT_PROFILE=zapwerx-org
+export DEPLOYMENT_ACCOUNT='318488973990'
+export DEPLOYMENT_PROFILE="zorg-idc-automation-deployment"
 export DEPLOYMENT_REGION=us-east-1
-export TARGET_ACCOUNT='116862854202'
-export TARGET_PROFILE=zapwerx-org
+export TARGET_ACCOUNT='235494785862'
+export TARGET_PROFILE="zorg-idc-automation-target"
 export TARGET_REGION=us-east-1
 export ORGMAIN_ACCOUNT='116862854202' 
-export ORGMAIN_PROFILE=zapwerx-org
+export ORGMAIN_PROFILE="zorg-management"
 export ORGMAIN_REGION=us-east-1
 export SSO_ACCOUNT='116862854202' 
-export SSO_PROFILE=zapwerx-org
+export SSO_PROFILE="zorg-management"
 export SSO_REGION=us-east-1
-export AWS_PROFILE=zapwerx-org
+export AWS_PROFILE="zorg-management"
 export AWS_REGION=us-east-1
 export BOOTSTRAP_QUALIFIER="ssoutility"
 export CFN_EXECUTION_POLICIES="arn:aws:iam::aws:policy/AdministratorAccess"
 export CONFIG="env"
 
-# arn:aws:iam::116862854202:role/LinkCallerRole
-# aws:iam::116862854202:role/PermissionSetCallerRole
-# 
+export Environment="env"
+export LinkCallerRoleArn='arn:aws:iam::235494785862:role/LinkCallerRole'
+export PermissionSetCallerRoleArn='arn:aws:iam::235494785862:role/PermissionSetCallerRole'
